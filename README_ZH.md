@@ -23,10 +23,13 @@
 - 从git上拉取工程文件 git clone https://github.com/Datayoo/HuggingFists.git, 或者直接使用download zip下载。需要注意的是，当使用Windows操作系统克隆项目时，Linux脚本文件中的'\n'会被替换为'\r\n'。当拷贝项目到Linux系统下时，由于'\n'的不同，脚本会无法执行。使用IDEA的开发者可以参考[配置 Git 处理行结束符](https://docs.github.com/zh/get-started/getting-started-with-git/configuring-git-to-handle-line-endings?platform=windows)解决问题。
 - 进入sengee.community.linux,执行安装脚本 bash install.sh。
 
-​	脚本执行结束后，可通过curl http://localhost:38172 测试系统是否正确安装。安装结束后，可通过访问url地址：“http://服务器IP:38172” 打开工具使用界面。
- 如果外部无法访问到页面，可以将服务器重启一次再试,算子平台会开机自启! 中国国内访问github较慢的朋友，可以移步到[https://share.weiyun.com/mmmowpEX](https://share.weiyun.com/mmmowpEX) 进行下载。
+  ​脚本执行结束后，可通过curl http://localhost:38172 测试系统是否正确安装。安装结束后，可通过访问url地址：“http://服务器IP:38172” 打开工具使用界面。
+   如果外部无法访问到页面，可以将服务器重启一次再试,算子平台会开机自启! 中国国内访问github较慢的朋友，可以移步到[https://share.weiyun.com/mmmowpEX](https://share.weiyun.com/mmmowpEX) 进行下载。
 #### Windows
-- Windows版的下载地址：[https://share.weiyun.com/2eDVeN8Q](https://share.weiyun.com/2eDVeN8Q)
+- Windows版的下载地址：git地址 [Datayoo/HuggingFists4Win: HuggingFists for Windows (github.com)](https://github.com/Datayoo/HuggingFists4Win)
+
+  从git上获取的是拆分后的zip,需要选中所有zip文件，解压到同一个目录下，会获得一个完整的压缩文件。与微云[https://share.weiyun.com/2eDVeN8Q](https://share.weiyun.com/2eDVeN8Q)上的文件相同。
+
 - 参见[Windows安装说明](https://github.com/Datayoo/HuggingFists/blob/main/HuggingFists%20windows%E7%89%88%E5%AE%89%E8%A3%85%E8%AF%B4%E6%98%8E.docx) 
 
 ![](https://github.com/Datayoo/HuggingFists/blob/main/docs/imgs/5.png)
@@ -127,30 +130,30 @@
 
 ## 学习资料
 
-| 视频链接                                                     | 内容描述                                                     |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-| https://www.bilibili.com/video/BV1Ku4y1r72H/                 | 如何低代码使用HuggingFace中的各类模型。给出了一个使用自然语言模型的示例和一个使用计算机视觉模型的示例。示例中涉及了账号以及Http代理的创建过程。 |
-| https://www.bilibili.com/video/BV1G84y1m79m/                 | 如何低代码使用HuggingFace中的各类数据集。                    |
-| https://www.bilibili.com/video/BV1rz4y137pH/<br />https://www.bilibili.com/video/BV1oy4y1A7Bd/ | 如何使用低代码方式对图片进行去色、旋转、剪切等操作           |
-| https://www.bilibili.com/video/BV1SP411W7kv/                 | 如何低代码抽取Html中的文本信息                               |
-| https://www.bilibili.com/video/BV138411Q7ia/                 | 如何低代码读取MySQL中的数据                                  |
-| https://www.bilibili.com/video/BV1qN4y1R7Pt/                 | 如何使用流程变量读取MySQL中的数据                            |
-| https://www.bilibili.com/video/BV1ok4y1A7ZM/                 | 如何使用上下文变量读取MySQL中的数据                          |
-| https://www.bilibili.com/video/BV19F411X7D1/                 | 如何低代码抽取visio文件中的文本                              |
-| https://www.bilibili.com/video/BV1RN41127vt/                 | 如何低代码抽取visio文件中的关系                              |
-| https://www.bilibili.com/video/BV1qV41157HH/                 | 如何低代码抽取Word中的文本与图片                             |
-| https://www.bilibili.com/video/BV1X94y1C7Bh/                 | 如何低代码抽取Word中的表格                                   |
-| https://www.bilibili.com/video/BV1Tg4y1J7WV/                 | 如何低代码抽取pdf中的文本                                    |
-| https://www.bilibili.com/video/BV1jk4y1V7nK/                 | 如何低代码读取Excel中的数据                                  |
-| https://www.bilibili.com/video/BV1Ks4y1c7bz/                 | 如何低代码写入MySQL数据表                                    |
-| https://www.bilibili.com/video/BV16u411b79b/                 | 如何低代码清除MySQL数据表并同时进行多表写入                  |
-| https://www.bilibili.com/video/BV1rW4y1D7mb/<br />https://www.bilibili.com/video/BV1Ps4y117pS/ | 如何低代码读写avro文件                                       |
-| https://www.bilibili.com/video/BV14u411Y7Z3/                 | 如何读取xml格式数据                                          |
-| https://www.bilibili.com/video/BV1D8411o7x6/                 | 如何读取Json格式数据                                         |
-| https://www.bilibili.com/video/BV1yV4y1Q7uT/                 | 如何使用平台对流程进行断点调试                               |
-| https://www.bilibili.com/video/BV17k4y1h79M/                 | 如何低代码抽取实体名                                         |
-| https://www.bilibili.com/video/BV1vw411U7ZV/                 | 如何低代码抽取文本中的时间信息                               |
-| https://www.bilibili.com/video/BV1Vj411y7j4/                 | 如何低代码抽取文本中的电话号码                               |
+| 视频链接                                     | 内容描述                                     |
+| ---------------------------------------- | ---------------------------------------- |
+| https://www.bilibili.com/video/BV1Ku4y1r72H/ | 如何低代码使用HuggingFace中的各类模型。给出了一个使用自然语言模型的示例和一个使用计算机视觉模型的示例。示例中涉及了账号以及Http代理的创建过程。 |
+| https://www.bilibili.com/video/BV1G84y1m79m/ | 如何低代码使用HuggingFace中的各类数据集。               |
+| https://www.bilibili.com/video/BV1rz4y137pH/<br />https://www.bilibili.com/video/BV1oy4y1A7Bd/ | 如何使用低代码方式对图片进行去色、旋转、剪切等操作                |
+| https://www.bilibili.com/video/BV1SP411W7kv/ | 如何低代码抽取Html中的文本信息                        |
+| https://www.bilibili.com/video/BV138411Q7ia/ | 如何低代码读取MySQL中的数据                         |
+| https://www.bilibili.com/video/BV1qN4y1R7Pt/ | 如何使用流程变量读取MySQL中的数据                      |
+| https://www.bilibili.com/video/BV1ok4y1A7ZM/ | 如何使用上下文变量读取MySQL中的数据                     |
+| https://www.bilibili.com/video/BV19F411X7D1/ | 如何低代码抽取visio文件中的文本                       |
+| https://www.bilibili.com/video/BV1RN41127vt/ | 如何低代码抽取visio文件中的关系                       |
+| https://www.bilibili.com/video/BV1qV41157HH/ | 如何低代码抽取Word中的文本与图片                       |
+| https://www.bilibili.com/video/BV1X94y1C7Bh/ | 如何低代码抽取Word中的表格                          |
+| https://www.bilibili.com/video/BV1Tg4y1J7WV/ | 如何低代码抽取pdf中的文本                           |
+| https://www.bilibili.com/video/BV1jk4y1V7nK/ | 如何低代码读取Excel中的数据                         |
+| https://www.bilibili.com/video/BV1Ks4y1c7bz/ | 如何低代码写入MySQL数据表                          |
+| https://www.bilibili.com/video/BV16u411b79b/ | 如何低代码清除MySQL数据表并同时进行多表写入                 |
+| https://www.bilibili.com/video/BV1rW4y1D7mb/<br />https://www.bilibili.com/video/BV1Ps4y117pS/ | 如何低代码读写avro文件                            |
+| https://www.bilibili.com/video/BV14u411Y7Z3/ | 如何读取xml格式数据                              |
+| https://www.bilibili.com/video/BV1D8411o7x6/ | 如何读取Json格式数据                             |
+| https://www.bilibili.com/video/BV1yV4y1Q7uT/ | 如何使用平台对流程进行断点调试                          |
+| https://www.bilibili.com/video/BV17k4y1h79M/ | 如何低代码抽取实体名                               |
+| https://www.bilibili.com/video/BV1vw411U7ZV/ | 如何低代码抽取文本中的时间信息                          |
+| https://www.bilibili.com/video/BV1Vj411y7j4/ | 如何低代码抽取文本中的电话号码                          |
 
 
 

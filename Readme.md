@@ -22,7 +22,12 @@ Navigate to sengee.community.linux and run the installation script with bash ins
 After the script execution is complete, you can test if the system is correctly installed by using curl *http://localhost:38172*. Once the installation is finished, you can access the tool's interface by visiting the URL: *"http://serverIP:38172"*. If you are unable to access the page externally, you can try restarting the server once, as the operator platform will start automatically on boot! For friends in China who experience slow access to GitHub, you can download the files from *https://share.weiyun.com/mmmowpEX*.
 
 **Windows**
-For Windows users, you can download the Windows version from the following link: *https://share.weiyun.com/2eDVeN8Q*. 
+For Windows users, you can download the Windows version from the following link:
+
+git:  [Datayoo/HuggingFists4Win: HuggingFists for Windows (github.com)](https://github.com/Datayoo/HuggingFists4Win).Selecting all ZIP files within the `sengee.community.windows` directory and extracting them into the same directory will result in a complete set of decompressed files.
+
+For friends in China who experience slow access to GitHub, you can download the files from [https://share.weiyun.com/2eDVeN8Q](https://share.weiyun.com/2eDVeN8Q).
+
 See [Windows installation instructions](https://github.com/Datayoo/HuggingFists/blob/main/HuggingFists%20windows%E7%89%88%E5%AE%89%E8%A3%85%E8%AF%B4%E6%98%8E.docx)
 
 ![](https://github.com/Datayoo/HuggingFists/blob/main/docs/imgs/5.png)
@@ -119,29 +124,29 @@ By following these steps, users can easily access datasets on Hugging Face and i
 
 **Reference**
 =============
-| Video Link	                                     | Content Description                                                  |
-|--------------------------------------------------|----------------------------------------------------------------------|
-|https://www.bilibili.com/video/BV1Ku4y1r72H/	     |How to use various models from HuggingFace with low-code. Provides examples of using a natural language model and a computer vision model. The examples involve the process of creating accounts and HTTP proxies.|
-|https://www.bilibili.com/video/BV1G84y1m79m/      |How to use various datasets from HuggingFace with low-code.           |
-|https://www.bilibili.com/video/BV1oy4y1A7Bd/      |How to desaturate, rotate, and crop images using low-code.            |
-|https://www.bilibili.com/video/BV1SP411W7kv/	     |How to extract text information from HTML using low-code.             |
-|https://www.bilibili.com/video/BV138411Q7ia/	     |How to read data from MySQL using low-code.                           |
-|https://www.bilibili.com/video/BV1qN4y1R7Pt/	     |How to read data from MySQL using flow variables with low-code.       |
-|https://www.bilibili.com/video/BV1ok4y1A7ZM/	     |How to read data from MySQL using context variables with low-code.    |
-|https://www.bilibili.com/video/BV19F411X7D1/	     |How to extract text from Visio files using low-code.                  |
-|https://www.bilibili.com/video/BV1RN41127vt/	     |How to extract relationships from Visio files using low-code.         |
-|https://www.bilibili.com/video/BV1qV41157HH/	     |How to extract text and images from Word documents using low-code.    |
-|https://www.bilibili.com/video/BV1X94y1C7Bh/	     |How to extract tables from Word documents using low-code.             |
-|https://www.bilibili.com/video/BV1Tg4y1J7WV/	     |How to extract text from PDFs using low-code.                         |
-|https://www.bilibili.com/video/BV1jk4y1V7nK/	     |How to read data from Excel using low-code.                           |
-|https://www.bilibili.com/video/BV1Ks4y1c7bz/	     |How to write data to a MySQL table using low-code.                    |
-|https://www.bilibili.com/video/BV16u411b79b/	     |How to clear MySQL tables and perform multi-table writes simultaneously using low-code.|
-|https://www.bilibili.com/video/BV1Ps4y117pS/	     |How to read and write Avro files using low-code.                      |
-|https://www.bilibili.com/video/BV14u411Y7Z3/	     |How to read XML-formatted data.                                       |
-|https://www.bilibili.com/video/BV1D8411o7x6/	     |How to read JSON-formatted data.                                      |
-|https://www.bilibili.com/video/BV1yV4y1Q7uT/	     |How to debug processes using breakpoints on the platform.             |
-|https://www.bilibili.com/video/BV17k4y1h79M/	     |How to extract entity names using low-code.                           |
-|https://www.bilibili.com/video/BV1vw411U7ZV/	     |How to extract time information from text using low-code.             |
-|https://www.bilibili.com/video/BV1Vj411y7j4/	     |How to extract phone numbers from text using low-code.                |
+| Video Link                               | Content Description                      |
+| ---------------------------------------- | ---------------------------------------- |
+| https://www.bilibili.com/video/BV1Ku4y1r72H/ | How to use various models from HuggingFace with low-code. Provides examples of using a natural language model and a computer vision model. The examples involve the process of creating accounts and HTTP proxies. |
+| https://www.bilibili.com/video/BV1G84y1m79m/ | How to use various datasets from HuggingFace with low-code. |
+| https://www.bilibili.com/video/BV1oy4y1A7Bd/ | How to desaturate, rotate, and crop images using low-code. |
+| https://www.bilibili.com/video/BV1SP411W7kv/ | How to extract text information from HTML using low-code. |
+| https://www.bilibili.com/video/BV138411Q7ia/ | How to read data from MySQL using low-code. |
+| https://www.bilibili.com/video/BV1qN4y1R7Pt/ | How to read data from MySQL using flow variables with low-code. |
+| https://www.bilibili.com/video/BV1ok4y1A7ZM/ | How to read data from MySQL using context variables with low-code. |
+| https://www.bilibili.com/video/BV19F411X7D1/ | How to extract text from Visio files using low-code. |
+| https://www.bilibili.com/video/BV1RN41127vt/ | How to extract relationships from Visio files using low-code. |
+| https://www.bilibili.com/video/BV1qV41157HH/ | How to extract text and images from Word documents using low-code. |
+| https://www.bilibili.com/video/BV1X94y1C7Bh/ | How to extract tables from Word documents using low-code. |
+| https://www.bilibili.com/video/BV1Tg4y1J7WV/ | How to extract text from PDFs using low-code. |
+| https://www.bilibili.com/video/BV1jk4y1V7nK/ | How to read data from Excel using low-code. |
+| https://www.bilibili.com/video/BV1Ks4y1c7bz/ | How to write data to a MySQL table using low-code. |
+| https://www.bilibili.com/video/BV16u411b79b/ | How to clear MySQL tables and perform multi-table writes simultaneously using low-code. |
+| https://www.bilibili.com/video/BV1Ps4y117pS/ | How to read and write Avro files using low-code. |
+| https://www.bilibili.com/video/BV14u411Y7Z3/ | How to read XML-formatted data.          |
+| https://www.bilibili.com/video/BV1D8411o7x6/ | How to read JSON-formatted data.         |
+| https://www.bilibili.com/video/BV1yV4y1Q7uT/ | How to debug processes using breakpoints on the platform. |
+| https://www.bilibili.com/video/BV17k4y1h79M/ | How to extract entity names using low-code. |
+| https://www.bilibili.com/video/BV1vw411U7ZV/ | How to extract time information from text using low-code. |
+| https://www.bilibili.com/video/BV1Vj411y7j4/ | How to extract phone numbers from text using low-code. |
 
 
